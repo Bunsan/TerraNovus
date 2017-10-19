@@ -104,10 +104,10 @@ public class LogHelper{
 	}
 
 	public static void setLogger(org.apache.logging.log4j.Logger logger) {
-		if (Log.logger != null) {
+		if (LogHelper.logger != null) {
 			throw new IllegalStateException("Attempt to replace logger");
 		}
-		Log.logger = logger;
+		LogHelper.logger = logger;
 	}
 
 
