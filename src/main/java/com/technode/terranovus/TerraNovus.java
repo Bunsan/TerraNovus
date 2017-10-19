@@ -1,25 +1,31 @@
 package com.technode.terranovus;
 
-import com.technode.terranovus.core.proxy.CommonProxy;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
+import com.technode.terranovus.core.proxy.CommonProxy;
+import com.technode.terranovus.utilities.LogHelper;
+
 import static com.technode.terranovus.core.ModDetails.*;
 
-@Mod(modid = MOD_ID, name = MOD_NAME, version = VERSION, useMetadata = false)
+@Mod(modid = MOD_ID, acceptedMinecraftVersions = "[1.12.2]", name = MOD_NAME, version = VERSION, useMetadata = false)
 public class TerraNovus
 {
     @Mod.Instance(MOD_ID)
     public static TerraNovus instance;
+
 
     @SidedProxy(clientSide = CLIENT_PROXY, serverSide = SERVER_PROXY)
     public static CommonProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
+    	LogHelper.setLogger(event.getModLog());
+    	LogHelper.info("Starting TerraNovus");
         proxy.preInit(event);
     }
 
