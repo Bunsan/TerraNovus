@@ -5,6 +5,7 @@
 build/
 libs/
 run/
+gradle/
 
 
 # Ignore Gradle GUI config
