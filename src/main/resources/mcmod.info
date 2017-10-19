@@ -1,0 +1,16 @@
+[
+{
+  "modid": "terranovus",
+  "name": "Terra Novus",
+  "description": "TFC Reborn.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["AnodeCathode", "Bunsan"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

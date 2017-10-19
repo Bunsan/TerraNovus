@@ -1,0 +1,6 @@
+minecraft_version=1.12.2
+forge_version=14.23.0.2491
+mod_version=0.1.0
+mod_id=TFCRedux
+group_name=com.technode.terranovus
+mcp_mappings = snapshot_20170624
