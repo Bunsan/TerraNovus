@@ -44,7 +44,6 @@ public class TerraNovus
     public static final String AssetPath = "/assets/" + MOD_ID + "/";
     public static final String AssetPathGui = "textures/gui/";
 
-    public static final String ConfigFilePath = "/config/";
     public static File configDirectory;
     
 	@Mod.Instance(MOD_ID)
