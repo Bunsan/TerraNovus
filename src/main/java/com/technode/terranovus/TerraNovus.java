@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 import java.io.File;
 
+import com.technode.terranovus.core.init.tnConfig;
 import com.technode.terranovus.utilities.LogHelper;
 
 
@@ -29,11 +30,9 @@ public class TerraNovus
     public static final String RESOURCE_MOD_ID = MOD_ID.toLowerCase();
     public static final String MOD_PREFIX = RESOURCE_MOD_ID + ":";
 
-    public static final String DEPENDENCIES = "required-after:Forge@[14.23.0.2491,)";
-    public static final String MOD_CHANNEL = "terranovus";
 
-    public static final String SERVER_PROXY = "com.technode.terranovus.core.proxy.ServerProxy";
-    public static final String CLIENT_PROXY = "com.technode.terranovus.core.proxy.ClientProxy";
+    public static final String SERVER_PROXY = "com.technode.terranovus.ServerProxy";
+    public static final String CLIENT_PROXY = "com.technode.terranovus.ClientProxy";
 
     public static final String DESC = "desc." + MOD_ID + ".";
     public static final String DESC_INFO = DESC+"info.";
@@ -44,7 +43,6 @@ public class TerraNovus
     public static final String AssetPath = "/assets/" + MOD_ID + "/";
     public static final String AssetPathGui = "textures/gui/";
 
-    public static File configDirectory;
     
 	@Mod.Instance(MOD_ID)
     public static TerraNovus instance;
@@ -58,7 +56,7 @@ public class TerraNovus
     public void preInit(FMLPreInitializationEvent event) {
     	LogHelper.setLogger(event.getModLog());
     	LogHelper.info("Starting TerraNovus");
-    	configDirectory = new File(event.getModConfigurationDirectory(), "terranovus.cfg");
+    	tnConfig.init(event.getModConfigurationDirectory());
         proxy.preInit(event);
     }
 
