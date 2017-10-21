@@ -12,13 +12,13 @@ import com.technode.terranovus.utilities.LogHelper;
 
 
 
-public class ConfigHandler {
+public class Options {
 	
 	public static Configuration config;
 	public static final String GENERAL_SETTINGS = "General Settings";
 	
-	
-	public static boolean enableLayers;
+	// Mod options will be set out here.
+	public static boolean enableLayers = true;
 	
 	public static void init(File configFile)
     {
@@ -37,7 +37,7 @@ public class ConfigHandler {
         }
         catch (Exception e)
         {
-            LogHelper.error("TerrNovus has encountered a problem loading config", e);
+            LogHelper.error("TerraNovus has encountered a problem loading config", e);
         }
         finally
         {
