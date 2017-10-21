@@ -1,7 +1,7 @@
 package com.technode.terranovus.utilities;
 
 import com.technode.terranovus.TerraNovus;
-import com.technode.terranovus.core.ModDetails;
+
 
 
 import org.apache.logging.log4j.Level;
@@ -10,7 +10,7 @@ import org.apache.logging.log4j.MarkerManager;
 
 public class LogHelper{
 	private static org.apache.logging.log4j.Logger logger;
-	public static final Marker MOD_MARKER = MarkerManager.getMarker(ModDetails.MOD_ID);
+	public static final Marker MOD_MARKER = MarkerManager.getMarker(TerraNovus.MOD_ID);
 
 	public static void log(Level level, String format, Object... data) {
 		logger.printf(level, format, data);

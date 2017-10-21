@@ -1,4 +1,4 @@
-package com.technode.terranovus.core.proxy;
+package com.technode.terranovus;
 
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
