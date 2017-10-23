@@ -27,7 +27,7 @@ public class WorldGenEnums {
 	public static Biome FOREST; //vanilla
 
 	// beach  
-	public static Biome GRAVEL_BEACH;  
+	public static Biome GRAVEL_BEACH;
 	public static Biome WHITE_BEACH;
 	public static Biome BEACH; //vanilla
 
@@ -61,251 +61,251 @@ public class WorldGenEnums {
 	// Terra Novus Biomes
 
 	// Moisture is Arid, Very Dry, Dry, Average, Damp, Very Damp, Wet. Naming
-	// Syntax is Region_Type_Moisture. Average is just Region_Type
-	public static Biome Polar_Ocean;
-	public static Biome Tundra_Ocean;
-	public static Biome Taiga_Ocean;
-	public static Biome Temperate_Ocean;
-	public static Biome Sub_Tropical_Ocean;
-	public static Biome Tropical_Ocean;
-	public static Biome Arid_Ocean;
-	public static Biome Hell_Ocean;
+	// Syntax is Region_Type_Moisture.
+	public static Biome POLAR_OCEAN;
+	public static Biome TUNDRA_OCEAN;
+	public static Biome TAIGA_OCEAN;
+	public static Biome TEMPERATE_OCEAN;
+	public static Biome SUBTROPICAL_OCEAN;
+	public static Biome TROPICAL_OCEAN;
+	public static Biome ARID_OCEAN;
+	public static Biome HELL_OCEAN;
 
-	public static Biome Polar_Deep_Ocean;
-	public static Biome Tundra_Deep_Ocean;
-	public static Biome Taiga_Deep_Ocean;
-	public static Biome Temperate_Deep_Ocean;
-	public static Biome Sub_Tropical_Deep_Ocean;
-	public static Biome Tropical_Deep_Ocean;
-	public static Biome Arid_Deep_Ocean;
-	public static Biome Hell_Deep_Ocean;
+	public static Biome POLAR_DEEP_OCEAN;
+	public static Biome TUNDRA_DEEP_OCEAN;
+	public static Biome TAIGA_DEEP_OCEAN;
+	public static Biome TEMPERATE_DEEP_OCEAN;
+	public static Biome SUBTROPICAL_DEEP_OCEAN;
+	public static Biome TROPICAL_DEEP_OCEAN;
+	public static Biome ARID_DEEP_OCEAN;
+	public static Biome HELL_DEEP_OCEAN;
 
-	public static Biome Polar_Lake;
-	public static Biome Tundra_Lake;
-	public static Biome Taiga_Lake;
-	public static Biome Temperate_Lake;
-	public static Biome Sub_Tropical_Lake;
-	public static Biome Tropical_Lake;
-	public static Biome Arid_Lake;
-	public static Biome Hell_Lake;
+	public static Biome POLAR_LAKE;
+	public static Biome TUNDRA_LAKE;
+	public static Biome TAIGA_LAKE;
+	public static Biome TEMPERATE_LAKE;
+	public static Biome SUBTROPICAL_LAKE;
+	public static Biome TROPICAL_LAKE;
+	public static Biome ARID_LAKE;
+	public static Biome HELL_LAKE;
 
-	public static Biome Polar_River;
-	public static Biome Tundra_River;
-	public static Biome Taiga_River;
-	public static Biome Temperate_River;
-	public static Biome Sub_Tropical_River;
-	public static Biome Tropical_River;
-	public static Biome Arid_River;
-	public static Biome Hell_River;
+	public static Biome POLAR_RIVER;
+	public static Biome TUNDRA_RIVER;
+	public static Biome TAIGA_RIVER;
+	public static Biome TEMPERATE_RIVER;
+	public static Biome SUBTROPICAL_RIVER;
+	public static Biome TROPICAL_RIVER;
+	public static Biome ARID_RIVER;
+	public static Biome HELL_RIVER;
 
-	public static Biome Polar_Beach;
-	public static Biome Tundra_Beach;
-	public static Biome Taiga_Beach;
-	public static Biome Temperate_Beach;
-	public static Biome Sub_Tropical_Beach;
-	public static Biome Tropical_Beach;
-	public static Biome Arid_Beach;
-	public static Biome Hell_Beach;
+	public static Biome POLAR_BEACH;
+	public static Biome TUNDRA_BEACH;
+	public static Biome TAIGA_BEACH;
+	public static Biome TEMPERATE_BEACH;
+	public static Biome SUBTROPICAL_BEACH;
+	public static Biome TROPICAL_BEACH;
+	public static Biome ARID_BEACH;
+	public static Biome HELL_BEACH;
 
-	//Polar
+	//POLAR
 
-	public static Biome Glacier;
-	public static Biome Polar_Plains;
-	public static Biome Polar_Mountain;
+	public static Biome POLAR_GLACIER;
+	public static Biome POLAR_PLAINS;
+	public static Biome POLAR_MOUNTAIN;
 
-	// Tundra
+	// TUNDRA
 
-	public static Biome Tundra_Plains_Very_Dry;
-	public static Biome Tundra_Plains_Dry;
-	public static Biome Tundra_Plains;
-	public static Biome Tundra_Plains_Damp;
+	public static Biome TUNDRA_PLAINS_VERY_DRY;
+	public static Biome TUNDRA_PLAINS_DRY;
+	public static Biome TUNDRA_PLAINS_AVERAGE;
+	public static Biome TUNDRA_PLAINS_DAMP;
 
-	public static Biome Tundra_Swamp_Dry;
-	public static Biome Tundra_Swamp;
-	public static Biome Tundra_Swamp_Damp;
+	public static Biome TUNDRA_SWAMP_DRY;
+	public static Biome TUNDRA_SWAMP_AVERAGE;
+	public static Biome TUNDRA_SWAMP_DAMP;
 
-	public static Biome Tundra_Hills_Very_Dry;
-	public static Biome Tundra_Hills_Dry;
-	public static Biome Tundra_Hills;
-	public static Biome Tundra_Hills_Damp;
+	public static Biome TUNDRA_HILLS_VERY_DRY;
+	public static Biome TUNDRA_HILLS_DRY;
+	public static Biome TUNDRA_HILLS_AVERAGE;
+	public static Biome TUNDRA_HILLS_DAMP;
 
-	public static Biome Tundra_Hills_Edge_Very_Dry;
-	public static Biome Tundra_Hills_Edge_Dry;
-	public static Biome Tundra_Hills_Edge;
-	public static Biome Tundra_Hills_Edge_Damp;
+	public static Biome TUNDRA_HILLS_EDGE_VERY_DRY;
+	public static Biome TUNDRA_HILLS_EDGE_DRY;
+	public static Biome TUNDRA_HILLS_EDGE_AVERAGE;
+	public static Biome TUNDRA_HILLS_EDGE_DAMP;
 
-	// Taiga
+	// TAIGA
 
-	public static Biome Taiga_Mountain_Dry;
-	public static Biome Taiga_Mountain;
+	public static Biome TAIGA_MOUNTAIN_DRY;
+	public static Biome TAIGA_MOUNTAIN_AVERAGE;
 
-	public static Biome Taiga_Mountain_Edge_Dry;
-	public static Biome Taiga_Mountain_Edge;
-	public static Biome Taiga_Mountain_Edge_Damp;
-	public static Biome Taiga_Mountain_Edge_Very_Damp;
+	public static Biome TAIGA_MOUNTAIN_EDGE_DRY;
+	public static Biome TAIGA_MOUNTAIN_EDGE_AVERAGE;
+	public static Biome TAIGA_MOUNTAIN_EDGE_DAMP;
+	public static Biome TAIGA_MOUNTAIN_EDGE_VERY_DAMP;
 
-	public static Biome Taiga_High_Plains_Dry;
-	public static Biome Taiga_High_Plains;
+	public static Biome TAIGA_HIGH_PLAINS_DRY;
+	public static Biome TAIGA_HIGH_PLAINS_AVERAGE;
 
-	public static Biome Taiga_Plains_Dry;
-	public static Biome Taiga_Plains;
-	public static Biome Taiga_Plains_Damp;
+	public static Biome TAIGA_PLAINS_DRY;
+	public static Biome TAIGA_PLAINS_AVERAGE;
+	public static Biome TAIGA_PLAINS_DAMP;
 
-	public static Biome Taiga_Hills_Dry;
-	public static Biome Taiga_Hills;
-	public static Biome Taiga_Hills_Damp;
+	public static Biome TAIGA_HILLS_DRY;
+	public static Biome TAIGA_HILLS_AVERAGE;
+	public static Biome TAIGA_HILLS_DAMP;
 
-	public static Biome Taiga_Hills_Edge_Dry;
-	public static Biome Taiga_Hills_Edge;
-	public static Biome Taiga_Hills_Edge_Damp;
+	public static Biome TAIGA_HILLS_EDGE_DRY;
+	public static Biome TAIGA_HILLS_EDGE_AVERAGE;
+	public static Biome TAIGA_HILLS_EDGE_DAMP;
 
-	public static Biome Taiga_Forest_Dry;
-	public static Biome Taiga_Forest;
-	public static Biome Taiga_Forest_Damp;
-	public static Biome Taiga_Forest_Very_Damp;
+	public static Biome TAIGA_FOREST_DRY;
+	public static Biome TAIGA_FOREST_AVERAGE;
+	public static Biome TAIGA_FOREST_DAMP;
+	public static Biome TAIGA_FOREST_VERY_DAMP;
 
-	public static Biome Taiga_Swamp_Dry;
-	public static Biome Taiga_Swamp;
-	public static Biome Taiga_Swamp_Damp;
+	public static Biome TAIGA_SWAMP_DRY;
+	public static Biome TAIGA_SWAMP_AVERAGE;
+	public static Biome TAIGA_SWAMP_DAMP;
 
-	// Temperate
+	// TEMPERATE
 
-	public static Biome Temperate_Mountain_Dry;
-	public static Biome Temperate_Mountain;
-	public static Biome Temperate_Mountain_Damp;
+	public static Biome TEMPERATE_MOUNTAIN_DRY;
+	public static Biome TEMPERATE_MOUNTAIN_AVERAGE;
+	public static Biome TEMPERATE_MOUNTAIN_DAMP;
 
-	public static Biome Temperate_Mountain_Edge_Dry;
-	public static Biome Temperate_Mountain_Edge;
-	public static Biome Temperate_Mountain_Edge_Damp;
-	public static Biome Temperate_Mountain_Edge_Very_Damp;
+	public static Biome TEMPERATE_MOUNTAIN_EDGE_DRY;
+	public static Biome TEMPERATE_MOUNTAIN_EDGE_AVERAGE;
+	public static Biome TEMPERATE_MOUNTAIN_EDGE_DAMP;
+	public static Biome TEMPERATE_MOUNTAIN_EDGE_VERY_DAMP;
 
-	public static Biome Temperate_High_Plains_Dry;
-	public static Biome Temperate_High_Plains;
-	public static Biome Temperate_High_Plains_Damp;
+	public static Biome TEMPERATE_HIGH_PLAINS_DRY;
+	public static Biome TEMPERATE_HIGH_PLAINS_AVERAGE;
+	public static Biome TEMPERATE_HIGH_PLAINS_DAMP;
 
-	public static Biome Temperate_Plains_Dry;
-	public static Biome Temperate_Plains;
-	public static Biome Temperate_Plains_Damp;
-	public static Biome Temperate_Plains_Very_Damp;
+	public static Biome TEMPERATE_PLAINS_DRY;
+	public static Biome TEMPERATE_PLAINS_AVERAGE;
+	public static Biome TEMPERATE_PLAINS_DAMP;
+	public static Biome TEMPERATE_PLAINS_VERY_DAMP;
 
-	public static Biome Temperate_Hills_Dry;
-	public static Biome Temperate_Hills;
-	public static Biome Temperate_Hills_Damp;
-	public static Biome Temperate_Hills_Very_Damp;
+	public static Biome TEMPERATE_HILLS_DRY;
+	public static Biome TEMPERATE_HILLS_AVERAGE;
+	public static Biome TEMPERATE_HILLS_DAMP;
+	public static Biome TEMPERATE_HILLS_VERY_DAMP;
 
-	public static Biome Temperate_Hills_Edge_Dry;
-	public static Biome Temperate_Hills_Edge;
-	public static Biome Temperate_Hills_Edge_Damp;
-	public static Biome Temperate_Hills_Edge_Very_Damp;
+	public static Biome TEMPERATE_HILLS_EDGE_DRY;
+	public static Biome TEMPERATE_HILLS_EDGE_AVERAGE;
+	public static Biome TEMPERATE_HILLS_EDGE_DAMP;
+	public static Biome TEMPERATE_HILLS_EDGE_VERY_DAMP;
 
-	public static Biome Temperate_Forest_Dry;
-	public static Biome Temperate_Forest;
-	public static Biome Temperate_Forest_Damp;
-	public static Biome Temperate_Forest_Very_Damp;
+	public static Biome TEMPERATE_FOREST_DRY;
+	public static Biome TEMPERATE_FOREST_AVERAGE;
+	public static Biome TEMPERATE_FOREST_DAMP;
+	public static Biome TEMPERATE_FOREST_VERY_DAMP;
 
-	public static Biome Temperate_Swamp_Dry;
-	public static Biome Temperate_Swamp;
-	public static Biome Temperate_Swamp_Damp;
+	public static Biome TEMPERATE_SWAMP_DRY;
+	public static Biome TEMPERATE_SWAMP_AVERAGE;
+	public static Biome TEMPERATE_SWAMP_DAMP;
 
-	// Sub_Tropical
+	// SUBTROPICAL
 
-	public static Biome Sub_Tropical_Mountain_Dry;
-	public static Biome Sub_Tropical_Mountain;
-	public static Biome Sub_Tropical_Mountain_Damp;
+	public static Biome SUBTROPICAL_MOUNTAIN_DRY;
+	public static Biome SUBTROPICAL_MOUNTAIN_AVERAGE;
+	public static Biome SUBTROPICAL_MOUNTAIN_DAMP;
 
-	public static Biome Sub_Tropical_Mountain_Edge_Dry;
-	public static Biome Sub_Tropical_Mountain_Edge;
-	public static Biome Sub_Tropical_Mountain_Edge_Damp;
-	public static Biome Sub_Tropical_Mountain_Edge_Very_Damp;
+	public static Biome SUBTROPICAL_MOUNTAIN_EDGE_DRY;
+	public static Biome SUBTROPICAL_MOUNTAIN_EDGE_AVERAGE;
+	public static Biome SUBTROPICAL_MOUNTAIN_EDGE_DAMP;
+	public static Biome SUBTROPICAL_MOUNTAIN_EDGE_VERY_DAMP;
 
-	public static Biome Sub_Tropical_High_Plains_Dry;
-	public static Biome Sub_Tropical_High_Plains;
-	public static Biome Sub_Tropical_High_Plains_Damp;
+	public static Biome SUBTROPICAL_HIGH_PLAINS_DRY;
+	public static Biome SUBTROPICAL_HIGH_PLAINS_AVERAGE;
+	public static Biome SUBTROPICAL_HIGH_PLAINS_DAMP;
 
-	public static Biome Sub_Tropical_Plains_Dry;
-	public static Biome Sub_Tropical_Plains;
-	public static Biome Sub_Tropical_Plains_Damp;
-	public static Biome Sub_Tropical_Plains_Very_Damp;
+	public static Biome SUBTROPICAL_PLAINS_DRY;
+	public static Biome SUBTROPICAL_PLAINS_AVERAGE;
+	public static Biome SUBTROPICAL_PLAINS_DAMP;
+	public static Biome SUBTROPICAL_PLAINS_VERY_DAMP;
 
-	public static Biome Sub_Tropical_Hills_Dry;
-	public static Biome Sub_Tropical_Hills;
-	public static Biome Sub_Tropical_Hills_Damp;
-	public static Biome Sub_Tropical_Hills_Very_Damp;
+	public static Biome SUBTROPICAL_HILLS_DRY;
+	public static Biome SUBTROPICAL_HILLS_AVERAGE;
+	public static Biome SUBTROPICAL_HILLS_DAMP;
+	public static Biome SUBTROPICAL_HILLS_VERY_DAMP;
 
-	public static Biome Sub_Tropical_Hills_Edge_Dry;
-	public static Biome Sub_Tropical_Hills_Edge;
-	public static Biome Sub_Tropical_Hills_Edge_Damp;
-	public static Biome Sub_Tropical_Hills_Edge_Very_Damp;
+	public static Biome SUBTROPICAL_HILLS_EDGE_DRY;
+	public static Biome SUBTROPICAL_HILLS_EDGE_AVERAGE;
+	public static Biome SUBTROPICAL_HILLS_EDGE_DAMP;
+	public static Biome SUBTROPICAL_HILLS_EDGE_VERY_DAMP;
 
-	public static Biome Sub_Tropical_Forest_Dry;
-	public static Biome Sub_Tropical_Forest;
-	public static Biome Sub_Tropical_Forest_Damp;
-	public static Biome Sub_Tropical_Forest_Very_Damp;
+	public static Biome SUBTROPICAL_FOREST_DRY;
+	public static Biome SUBTROPICAL_FOREST_AVERAGE;
+	public static Biome SUBTROPICAL_FOREST_DAMP;
+	public static Biome SUBTROPICAL_FOREST_VERY_DAMP;
 
-	public static Biome Sub_Tropical_Swamp_Dry;
-	public static Biome Sub_Tropical_Swamp;
-	public static Biome Sub_Tropical_Swamp_Damp;
+	public static Biome SUBTROPICAL_SWAMP_DRY;
+	public static Biome SUBTROPICAL_SWAMP_AVERAGE;
+	public static Biome SUBTROPICAL_SWAMP_DAMP;
 
-	// Tropical
+	// TROPICAL
 
-	public static Biome Tropical_Mountain_Dry;
-	public static Biome Tropical_Mountain;
-	public static Biome Tropical_Mountain_Damp;
-	public static Biome Tropical_Mountain_Very_Damp;
-	public static Biome Tropical_Mountain_Wet;
+	public static Biome TROPICAL_MOUNTAIN_DRY;
+	public static Biome TROPICAL_MOUNTAIN_AVERAGE;
+	public static Biome TROPICAL_MOUNTAIN_DAMP;
+	public static Biome TROPICAL_MOUNTAIN_VERY_DAMP;
+	public static Biome TROPICAL_MOUNTAIN_WET;
 
-	public static Biome Tropical_Mountain_Edge_Dry;
-	public static Biome Tropical_Mountain_Edge;
-	public static Biome Tropical_Mountain_Edge_Damp;
-	public static Biome Tropical_Mountain_Edge_Very_Damp;
-	public static Biome Tropical_Mountain_Edge_Wet;
+	public static Biome TROPICAL_MOUNTAIN_EDGE_DRY;
+	public static Biome TROPICAL_MOUNTAIN_EDGE_AVERAGE;
+	public static Biome TROPICAL_MOUNTAIN_EDGE_DAMP;
+	public static Biome TROPICAL_MOUNTAIN_EDGE_VERY_DAMP;
+	public static Biome TROPICAL_MOUNTAIN_EDGE_WET;
 
-	public static Biome Tropical_High_Plains_Dry;
-	public static Biome Tropical_High_Plains;
-	public static Biome Tropical_High_Plains_Damp;
-	public static Biome Tropical_High_Plains_Very_Damp;
-	public static Biome Tropical_High_Plains_Wet;
+	public static Biome TROPICAL_HIGH_PLAINS_DRY;
+	public static Biome TROPICAL_HIGH_PLAINS_AVERAGE;
+	public static Biome TROPICAL_HIGH_PLAINS_DAMP;
+	public static Biome TROPICAL_HIGH_PLAINS_VERY_DAMP;
+	public static Biome TROPICAL_HIGH_PLAINS_WET;
 
-	public static Biome Tropical_Plains_Very_Dry;
-	public static Biome Tropical_Plains_Dry;
+	public static Biome TROPICAL_PLAINS_VERY_DRY;
+	public static Biome TROPICAL_PLAINS_DRY;
 
-	public static Biome Tropical_Hills_Dry;
-	public static Biome Tropical_Hills;
-	public static Biome Tropical_Hills_Damp;
-	public static Biome Tropical_Hills_Very_Damp;
-	public static Biome Tropical_Hills_Wet;
+	public static Biome TROPICAL_HILLS_DRY;
+	public static Biome TROPICAL_HILLS_AVERAGE;
+	public static Biome TROPICAL_HILLS_DAMP;
+	public static Biome TROPICAL_HILLS_VERY_DAMP;
+	public static Biome TROPICAL_HILLS_WET;
 
-	public static Biome Tropical_Hills_Edge_Dry;
-	public static Biome Tropical_Hills_Edge;
-	public static Biome Tropical_Hills_Edge_Damp;
-	public static Biome Tropical_Hills_Edge_Very_Damp;
-	public static Biome Tropical_Hills_Edge_Wet;
+	public static Biome TROPICAL_HILLS_EDGE_DRY;
+	public static Biome TROPICAL_HILLS_EDGE_AVERAGE;
+	public static Biome TROPICAL_HILLS_EDGE_DAMP;
+	public static Biome TROPICAL_HILLS_EDGE_VERY_DAMP;
+	public static Biome TROPICAL_HILLS_EDGE_WET;
 
-	public static Biome Tropical_Forest_Dry;
-	public static Biome Tropical_Forest;
-	public static Biome Tropical_Forest_Damp;
-	public static Biome Tropical_Forest_Very_Damp;
-	public static Biome Tropical_Forest_Wet;
+	public static Biome TROPICAL_FOREST_DRY;
+	public static Biome TROPICAL_FOREST_AVERAGE;
+	public static Biome TROPICAL_FOREST_DAMP;
+	public static Biome TROPICAL_FOREST_VERY_DAMP;
+	public static Biome TROPICAL_FOREST_WET;
 
-	public static Biome Tropical_Swamp_Dry;
-	public static Biome Tropical_Swamp;
-	public static Biome Tropical_Swamp_Damp;
+	public static Biome TROPICAL_SWAMP_DRY;
+	public static Biome TROPICAL_SWAMP_AVERAGE;
+	public static Biome TROPICAL_SWAMP_DAMP;
 
-	// Arid
+	// ARID
 
-	public static Biome Arid_Mesa_Mountain_Arid;
-	public static Biome Arid_Mesa_Hill_Arid;
-	public static Biome Arid_Mesa_Hill_Edge_Arid;
-	public static Biome Arid_Desert_Hill_Arid;
-	public static Biome Arid_Desert_Hill_Edge_Arid;
-	public static Biome Arid_Desert_Plains_Arid;
-	public static Biome Arid_Scrubland_Hill_Dry;
-	public static Biome Arid_Scrubland_Hill_Edge_Dry;
-	public static Biome Arid_Scrubland_Plains_Dry;
+	public static Biome ARID_MESA_MOUNTAIN_ARID;
+	public static Biome ARID_MESA_HILLS_ARID;
+	public static Biome ARID_MESA_HILLS_EDGE_ARID;
+	public static Biome ARID_DESERT_HILLS_ARID;
+	public static Biome ARID_DESERT_HILLS_EDGE_ARID;
+	public static Biome ARID_DESERT_PLAINS_ARID;
+	public static Biome ARID_SCRUBLAND_HILLS_DRY;
+	public static Biome ARID_SCRUBLAND_HILLS_EDGE_DRY;
+	public static Biome ARID_SCRUBLAND_PLAINS_DRY;
 
-	// Hell
+	// HELL
 
-	public static Biome Hell_Mountain_Arid;
-	public static Biome Hell_River_Canyon_Arid;
-
+	public static Biome HELL_MOUNTAIN_ARID;
+	public static Biome HELL_PLAINS;
+	public static Biome HELL_RIVER_CANYON_ARID;
 }
