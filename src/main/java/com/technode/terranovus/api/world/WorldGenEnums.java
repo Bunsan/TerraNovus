@@ -62,67 +62,28 @@ public class WorldGenEnums {
 
 	// Moisture is Arid, Very Dry, Dry, Average, Damp, Very Damp, Wet. Naming
 	// Syntax is Region_Type_Moisture.
-	public static Biome POLAR_OCEAN;
-	public static Biome TUNDRA_OCEAN;
-	public static Biome TAIGA_OCEAN;
-	public static Biome TEMPERATE_OCEAN;
-	public static Biome SUBTROPICAL_OCEAN;
-	public static Biome TROPICAL_OCEAN;
-	public static Biome ARID_OCEAN;
-	public static Biome HELL_OCEAN;
-
-	public static Biome POLAR_DEEP_OCEAN;
-	public static Biome TUNDRA_DEEP_OCEAN;
-	public static Biome TAIGA_DEEP_OCEAN;
-	public static Biome TEMPERATE_DEEP_OCEAN;
-	public static Biome SUBTROPICAL_DEEP_OCEAN;
-	public static Biome TROPICAL_DEEP_OCEAN;
-	public static Biome ARID_DEEP_OCEAN;
-	public static Biome HELL_DEEP_OCEAN;
-
-	public static Biome POLAR_LAKE;
-	public static Biome TUNDRA_LAKE;
-	public static Biome TAIGA_LAKE;
-	public static Biome TEMPERATE_LAKE;
-	public static Biome SUBTROPICAL_LAKE;
-	public static Biome TROPICAL_LAKE;
-	public static Biome ARID_LAKE;
-	public static Biome HELL_LAKE;
-
-	public static Biome POLAR_RIVER;
-	public static Biome TUNDRA_RIVER;
-	public static Biome TAIGA_RIVER;
-	public static Biome TEMPERATE_RIVER;
-	public static Biome SUBTROPICAL_RIVER;
-	public static Biome TROPICAL_RIVER;
-	public static Biome ARID_RIVER;
-	public static Biome HELL_RIVER;
-
-	public static Biome POLAR_BEACH;
-	public static Biome TUNDRA_BEACH;
-	public static Biome TAIGA_BEACH;
-	public static Biome TEMPERATE_BEACH;
-	public static Biome SUBTROPICAL_BEACH;
-	public static Biome TROPICAL_BEACH;
-	public static Biome ARID_BEACH;
-	public static Biome HELL_BEACH;
 
 	//POLAR
-
+	public static Biome POLAR_OCEAN;
+	public static Biome POLAR_DEEP_OCEAN;
+	public static Biome POLAR_LAKE;
+	public static Biome POLAR_RIVER;
+	public static Biome POLAR_BEACH;
 	public static Biome POLAR_GLACIER;
 	public static Biome POLAR_PLAINS;
 	public static Biome POLAR_MOUNTAIN;
 
 	// TUNDRA
+	public static Biome TUNDRA_OCEAN;
+	public static Biome TUNDRA_DEEP_OCEAN;
+	public static Biome TUNDRA_LAKE;
+	public static Biome TUNDRA_RIVER;
+	public static Biome TUNDRA_BEACH;
 
 	public static Biome TUNDRA_PLAINS_VERY_DRY;
 	public static Biome TUNDRA_PLAINS_DRY;
 	public static Biome TUNDRA_PLAINS_AVERAGE;
 	public static Biome TUNDRA_PLAINS_DAMP;
-
-	public static Biome TUNDRA_SWAMP_DRY;
-	public static Biome TUNDRA_SWAMP_AVERAGE;
-	public static Biome TUNDRA_SWAMP_DAMP;
 
 	public static Biome TUNDRA_HILLS_VERY_DRY;
 	public static Biome TUNDRA_HILLS_DRY;
@@ -134,18 +95,28 @@ public class WorldGenEnums {
 	public static Biome TUNDRA_HILLS_EDGE_AVERAGE;
 	public static Biome TUNDRA_HILLS_EDGE_DAMP;
 
+	public static Biome TUNDRA_SWAMP_DRY;
+	public static Biome TUNDRA_SWAMP_AVERAGE;
+	public static Biome TUNDRA_SWAMP_DAMP;
+
 	// TAIGA
+	public static Biome TAIGA_OCEAN;
+	public static Biome TAIGA_DEEP_OCEAN;
+	public static Biome TAIGA_LAKE;
+	public static Biome TAIGA_RIVER;
+	public static Biome TAIGA_BEACH;
 
 	public static Biome TAIGA_MOUNTAIN_DRY;
 	public static Biome TAIGA_MOUNTAIN_AVERAGE;
+	public static Biome TAIGA_MOUNTAIN_DAMP;
 
 	public static Biome TAIGA_MOUNTAIN_EDGE_DRY;
 	public static Biome TAIGA_MOUNTAIN_EDGE_AVERAGE;
 	public static Biome TAIGA_MOUNTAIN_EDGE_DAMP;
-	public static Biome TAIGA_MOUNTAIN_EDGE_VERY_DAMP;
 
 	public static Biome TAIGA_HIGH_PLAINS_DRY;
 	public static Biome TAIGA_HIGH_PLAINS_AVERAGE;
+	public static Biome TAIGA_HIGH_PLAINS_DAMP;
 
 	public static Biome TAIGA_PLAINS_DRY;
 	public static Biome TAIGA_PLAINS_AVERAGE;
@@ -169,6 +140,11 @@ public class WorldGenEnums {
 	public static Biome TAIGA_SWAMP_DAMP;
 
 	// TEMPERATE
+	public static Biome TEMPERATE_OCEAN;
+	public static Biome TEMPERATE_DEEP_OCEAN;
+	public static Biome TEMPERATE_LAKE;
+	public static Biome TEMPERATE_RIVER;
+	public static Biome TEMPERATE_BEACH;
 
 	public static Biome TEMPERATE_MOUNTAIN_DRY;
 	public static Biome TEMPERATE_MOUNTAIN_AVERAGE;
@@ -208,6 +184,11 @@ public class WorldGenEnums {
 	public static Biome TEMPERATE_SWAMP_DAMP;
 
 	// SUBTROPICAL
+	public static Biome SUBTROPICAL_OCEAN;
+	public static Biome SUBTROPICAL_DEEP_OCEAN;
+	public static Biome SUBTROPICAL_LAKE;
+	public static Biome SUBTROPICAL_RIVER;
+	public static Biome SUBTROPICAL_BEACH;
 
 	public static Biome SUBTROPICAL_MOUNTAIN_DRY;
 	public static Biome SUBTROPICAL_MOUNTAIN_AVERAGE;
@@ -247,6 +228,11 @@ public class WorldGenEnums {
 	public static Biome SUBTROPICAL_SWAMP_DAMP;
 
 	// TROPICAL
+	public static Biome TROPICAL_OCEAN;
+	public static Biome TROPICAL_DEEP_OCEAN;
+	public static Biome TROPICAL_LAKE;
+	public static Biome TROPICAL_RIVER;
+	public static Biome TROPICAL_BEACH;
 
 	public static Biome TROPICAL_MOUNTAIN_DRY;
 	public static Biome TROPICAL_MOUNTAIN_AVERAGE;
@@ -292,20 +278,32 @@ public class WorldGenEnums {
 	public static Biome TROPICAL_SWAMP_DAMP;
 
 	// ARID
+	public static Biome ARID_OCEAN;
+	public static Biome ARID_DEEP_OCEAN;
+	public static Biome ARID_LAKE;
+	public static Biome ARID_RIVER;
+	public static Biome ARID_BEACH;
 
 	public static Biome ARID_MESA_MOUNTAIN_ARID;
 	public static Biome ARID_MESA_HILLS_ARID;
 	public static Biome ARID_MESA_HILLS_EDGE_ARID;
+	public static Biome ARID_MESA_HIGH_PLAINS_ARID;
+	public static Biome ARID_MESA_PLAINS_ARID;
 	public static Biome ARID_DESERT_HILLS_ARID;
 	public static Biome ARID_DESERT_HILLS_EDGE_ARID;
 	public static Biome ARID_DESERT_PLAINS_ARID;
 	public static Biome ARID_SCRUBLAND_HILLS_DRY;
 	public static Biome ARID_SCRUBLAND_HILLS_EDGE_DRY;
 	public static Biome ARID_SCRUBLAND_PLAINS_DRY;
+	public static Biome ARID_SALT_PLAINS_DRY;
 
 	// HELL
-
+	public static Biome HELL_OCEAN;
+	public static Biome HELL_DEEP_OCEAN;
+	public static Biome HELL_LAKE;
+	public static Biome HELL_RIVER;
+	public static Biome HELL_BEACH;
 	public static Biome HELL_MOUNTAIN_ARID;
-	public static Biome HELL_PLAINS;
+	public static Biome HELL_PLAINS_ARID;
 	public static Biome HELL_RIVER_CANYON_ARID;
 }

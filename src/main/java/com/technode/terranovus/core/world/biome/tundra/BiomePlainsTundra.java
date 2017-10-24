@@ -4,11 +4,13 @@ import com.technode.terranovus.core.world.biome.BiomePlainsTN;
 
 public class BiomePlainsTundra extends BiomePlainsTN {
 
-    public static enum PlainsType {VERY_DRY, DRY, AVERAGE, DAMP}
+    public static enum MoistureType {ARID, VERY_DRY, DRY, AVERAGE, DAMP, VERY_DAMP, WET}
 
-    public PlainsType type;
+    public MoistureType type;
 
-    public BiomePlainsTundra(PlainsType type)
+    public BiomePlainsTundra(MoistureType type)
     {
+        //Will have a modifier for flora and fauna density. So lower humidity will affect tree density, crop density and animal spawns. Will also affect what grass block will spawn.
     }
+
 }
