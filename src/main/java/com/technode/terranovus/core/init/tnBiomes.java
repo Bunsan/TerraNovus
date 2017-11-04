@@ -5,10 +5,10 @@ import com.technode.terranovus.TerraNovus;
 import com.technode.terranovus.api.world.WorldGenEnums;
 import com.technode.terranovus.core.world.WorldTypeTN;
 import com.technode.terranovus.core.world.biome.*;
-import com.technode.terranovus.core.world.biome.arid.*;
+import com.technode.terranovus.core.world.biome.hot.*;
 import com.technode.terranovus.core.world.biome.hell.*;
 import com.technode.terranovus.core.world.biome.polar.*;
-import com.technode.terranovus.core.world.biome.polar.BiomeRiverArid;
+import com.technode.terranovus.core.world.biome.polar.BiomeRiverHot;
 import com.technode.terranovus.core.world.biome.subtropical.*;
 import com.technode.terranovus.core.world.biome.taiga.*;
 import com.technode.terranovus.core.world.biome.temperate.*;
@@ -259,27 +259,27 @@ public class tnBiomes {
 
         // ARID
 
-        WorldGenEnums.ARID_OCEAN = register("arid_ocean", new BiomeOceanArid(), false, Type.OCEAN, Type.WATER, Type.HOT);
-        WorldGenEnums.ARID_DEEP_OCEAN = register("arid_deep_ocean", new BiomeDeepOceanArid(), false, Type.OCEAN, Type.WATER, Type.HOT);
-        WorldGenEnums.ARID_BEACH = register("arid_beach", new BiomeBeachArid(), false, Type.BEACH, Type.HOT);
-        WorldGenEnums.ARID_LAKE = register("arid_lake", new BiomeLakeArid(), false, Type.WATER, Type.HOT, Type.RARE);
-        WorldGenEnums.ARID_RIVER = register("arid_river", new BiomeRiverArid(), false, Type.RIVER, Type.HOT);
+        WorldGenEnums.ARID_OCEAN = register("arid_ocean", new BiomeOceanHot(), false, Type.OCEAN, Type.WATER, Type.HOT);
+        WorldGenEnums.ARID_DEEP_OCEAN = register("arid_deep_ocean", new BiomeDeepOceanHot(), false, Type.OCEAN, Type.WATER, Type.HOT);
+        WorldGenEnums.ARID_BEACH = register("arid_beach", new BiomeBeachHot(), false, Type.BEACH, Type.HOT);
+        WorldGenEnums.ARID_LAKE = register("arid_lake", new BiomeLakeHot(), false, Type.WATER, Type.HOT, Type.RARE);
+        WorldGenEnums.ARID_RIVER = register("arid_river", new BiomeRiverHot(), false, Type.RIVER, Type.HOT);
 
-        WorldGenEnums.ARID_MESA_MOUNTAIN_ARID = register("arid_mesa_mountain_arid", new BiomeMountainArid(), false, Type.MOUNTAIN, Type.MESA, Type.HOT, Type.DRY);
-        WorldGenEnums.ARID_MESA_HIGH_PLAINS_ARID = register("arid_mesa_high_plains_arid", new BiomeHighPlainsArid(), false, Type.PLAINS, Type.MESA, Type.HOT, Type.DRY);
-        WorldGenEnums.ARID_MESA_PLAINS_ARID = register("arid_mesa_plains_arid", new BiomePlainsArid(), false, Type.PLAINS, Type.MESA, Type.HOT, Type.DRY);
-        WorldGenEnums.ARID_MESA_HILLS_ARID = register("arid_mesa_hills_arid", new BiomeHillsArid(), false, Type.HILLS, Type.MESA, Type.HOT, Type.DRY);
-        WorldGenEnums.ARID_MESA_HILLS_EDGE_ARID = register("arid_mesa_hills_edge_arid", new BiomeHillsEdgeArid(), false, Type.HILLS, Type.MESA, Type.HOT, Type.DRY);
+        WorldGenEnums.ARID_MESA_MOUNTAIN_ARID = register("arid_mesa_mountain_arid", new BiomeMountainHot(), false, Type.MOUNTAIN, Type.MESA, Type.HOT, Type.DRY);
+        WorldGenEnums.ARID_MESA_HIGH_PLAINS_ARID = register("arid_mesa_high_plains_arid", new BiomeHighPlainsHot(), false, Type.PLAINS, Type.MESA, Type.HOT, Type.DRY);
+        WorldGenEnums.ARID_MESA_PLAINS_ARID = register("arid_mesa_plains_arid", new BiomePlainsHot(), false, Type.PLAINS, Type.MESA, Type.HOT, Type.DRY);
+        WorldGenEnums.ARID_MESA_HILLS_ARID = register("arid_mesa_hills_arid", new BiomeHillsHot(), false, Type.HILLS, Type.MESA, Type.HOT, Type.DRY);
+        WorldGenEnums.ARID_MESA_HILLS_EDGE_ARID = register("arid_mesa_hills_edge_arid", new BiomeHillsEdgeHot(), false, Type.HILLS, Type.MESA, Type.HOT, Type.DRY);
 
-        WorldGenEnums.ARID_DESERT_PLAINS_ARID = register("arid_desert_plains_arid", new BiomePlainsArid(), false, Type.PLAINS, Type.SANDY, Type.HOT, Type.DRY);
-        WorldGenEnums.ARID_DESERT_HILLS_ARID = register("arid_desert_hills_arid", new BiomeHillsArid(), false, Type.HILLS, Type.SANDY, Type.HOT, Type.DRY);
-        WorldGenEnums.ARID_DESERT_HILLS_EDGE_ARID = register("arid_desert_hills_edge_arid", new BiomeHillsEdgeArid(), false, Type.HILLS, Type.SANDY, Type.HOT, Type.DRY);
+        WorldGenEnums.ARID_DESERT_PLAINS_ARID = register("arid_desert_plains_arid", new BiomePlainsHot(), false, Type.PLAINS, Type.SANDY, Type.HOT, Type.DRY);
+        WorldGenEnums.ARID_DESERT_HILLS_ARID = register("arid_desert_hills_arid", new BiomeHillsHot(), false, Type.HILLS, Type.SANDY, Type.HOT, Type.DRY);
+        WorldGenEnums.ARID_DESERT_HILLS_EDGE_ARID = register("arid_desert_hills_edge_arid", new BiomeHillsEdgeHot(), false, Type.HILLS, Type.SANDY, Type.HOT, Type.DRY);
 
-        WorldGenEnums.ARID_SCRUBLAND_PLAINS_DRY = register("arid_scrubland_plains_dry", new BiomePlainsArid(), false, Type.PLAINS, Type.HOT, Type.DRY);
-        WorldGenEnums.ARID_SCRUBLAND_HILLS_DRY = register("arid_scrubland_hills_dry", new BiomeHillsArid(), false, Type.HILLS, Type.HOT, Type.DRY);
-        WorldGenEnums.ARID_SCRUBLAND_HILLS_EDGE_DRY = register("arid_scrubland_hills_edge_dry", new BiomeHillsEdgeArid(), false, Type.HILLS, Type.HOT, Type.DRY);
+        WorldGenEnums.ARID_SCRUBLAND_PLAINS_DRY = register("arid_scrubland_plains_dry", new BiomePlainsHot(), false, Type.PLAINS, Type.HOT, Type.DRY);
+        WorldGenEnums.ARID_SCRUBLAND_HILLS_DRY = register("arid_scrubland_hills_dry", new BiomeHillsHot(), false, Type.HILLS, Type.HOT, Type.DRY);
+        WorldGenEnums.ARID_SCRUBLAND_HILLS_EDGE_DRY = register("arid_scrubland_hills_edge_dry", new BiomeHillsEdgeHot(), false, Type.HILLS, Type.HOT, Type.DRY);
 
-        WorldGenEnums.ARID_SALT_PLAINS_DRY = register("arid_salt_plains_dry", new BiomeSaltPlainsArid(), false, Type.PLAINS, Type.HOT, Type.DRY);
+        WorldGenEnums.ARID_SALT_PLAINS_DRY = register("arid_salt_plains_dry", new BiomeSaltPlainsHot(), false, Type.PLAINS, Type.HOT, Type.DRY);
 
         // HELL
 
